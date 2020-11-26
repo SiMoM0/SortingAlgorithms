@@ -1,5 +1,5 @@
 #Selection Sort function in pyhton using an array of 50 elements for test
-import random as rd
+import random
 
 #Selection Sort function
 def selectionSort(arr):
@@ -15,7 +15,7 @@ def selectionSort(arr):
 lista = []
 for i in range(50):
     #insert in the list random numbers between 1 and 1000
-    lista.append(rd.randint(1, 1000))   
+    lista.append(random.randint(1, 1000))   
 print("List of numbers: ", lista)
 
 #sort the list with selection sort
