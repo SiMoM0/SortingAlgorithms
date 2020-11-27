@@ -10,7 +10,6 @@ def selectionSort(arr):
                 min_index = j;
         #swap the positions
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr
 
 lista = []
 for i in range(50):
@@ -19,5 +18,5 @@ for i in range(50):
 print("List of numbers: ", lista)
 
 #sort the list with selection sort
-lista = selectionSort(lista)
+selectionSort(lista)
 print("Sorted list: ", lista)
