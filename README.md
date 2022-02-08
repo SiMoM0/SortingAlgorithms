@@ -9,11 +9,14 @@ This algorithms is O(n^2).
 Swap elements from the end of the list to the beginning, moving the minor element in the first position of th list/sublist. 
 This algorithms is O(n^2). 	
 
+### Insertion Sort
+Insert one item at a time in the right position of the left partial sorted list. The algorithm has a time complexity of O(n^2).
+
 ### Merge Sort
 A divide and conquer sorting algorithm. It has a time complexity of O(nlogn).
 
 ### Quick Sort
-Another divide and conquer sorting algorithm like Merge Sort. Still a time complexity of O(nlogn)
+Another divide and conquer sorting algorithm like Merge Sort. Still a time complexity of O(nlogn).
 
 ### Heap Sort
-A sorting algorithm based on Binary Heap data structure. It has a time complexity of O(nlogn)
+A sorting algorithm based on Binary Heap data structure. It has a time complexity of O(nlogn).
